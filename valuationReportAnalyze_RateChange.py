@@ -97,6 +97,6 @@ val2 = cum_eq / unwoundFX - cum_eq / unwoundFX_against
 print val2
 
 
-print "total diff caused by the exchange rate is " + str(val1 + val2)
+print "total diff caused by the exchange rate is " + str(val1 + val2) + "$"
 
 
