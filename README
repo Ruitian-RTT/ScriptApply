@@ -1,0 +1,30 @@
+The output example for the valuationReportAnalyze_RateChange.py script execution:
+
+height has been deprecated.
+
+---------------------------------------------------------Valuation sheet
+example data for valuation sheet after handling:
+           date   qty  price      FX
+703  2018/05/18  3300  40.19  6.3577
+704  2018/05/18  1700  73.46  6.3577
+705  2018/05/18  2200  33.65  6.3577
+706  2018/05/18   900  29.33  6.3577
+707  2018/05/18  4100    8.2  6.3577
+cum_val value for valuation part is 1644178.22RMB
+FX for 20180518 is 6.3577
+---------------------------------------------------------EQ Unwound sheet
+example data for EQ_Unwound sheet after handling:
+             date   qty    price      FX
+20329  2018/05/18  1100  54.0782  6.3725
+20330  2018/05/18 -9100   7.2516  6.3725
+20331  2018/05/18 -2000  13.2814  6.3725
+20332  2018/05/18  -200   7.0312  6.3725
+20333  2018/05/18 -7000   5.7558  6.3725
+cum_eq value for valuation part is 10545763.4988RMB
+FX for 20180518 is 6.3725
+---------------------------------------------------------calculate the final diff from the Foreign exchange
+as contrast, valuation FX = 6.3523
+-219.84248241
+as contrast, unwoundEQ FX = 6.3658
+-1741.76675208
+total diff caused by the exchange rate is -1961.60923449
