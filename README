@@ -28,3 +28,6 @@ as contrast, valuation FX = 6.3523
 as contrast, unwoundEQ FX = 6.3658
 -1741.76675208
 total diff caused by the exchange rate is -1961.60923449
+
+stocshares_analyze.py
+    it is used to display the quotes for the given symbols from the start date
