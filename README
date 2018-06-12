@@ -35,3 +35,5 @@ total diff caused by the exchange rate is -1961.60923449
 (3) analyze.pl
     intput: valuation report
     output: RMB/USD PNL for every single stock
+
+Test for different git branch
